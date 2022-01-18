@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
-header{
-    margin: -1rem
-}
+
 
 .hrow1{
     height: 4.6em;
@@ -18,11 +16,17 @@ header{
     justify-content:right;
 }
 .brand{
-    margin-left:1rem;
-    font-size:3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color:white;
+}
+.brand:hover{
+    color:rgb(1, 14, 17);
 }
 .hrow2{
-    display:flex;
+    display:grid;
     height: auto;
     padding-left:1rem;
     grid-template-columns:10fr 0.8fr;
@@ -37,21 +41,34 @@ header{
     grid-gap:10px;
     padding-left:10px;
 }
-.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    width:1100px;
+ 
+
+
+
+/* make box resposive */
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
     font-family: 'Noto Sans', sans-serif;
     background-color: #f0f0f0;
-    margin: 5px;
-    padding: auto;
-  }
+    border: 1px solid black;
+    font-size: 1.1em;
+    width:80%;
+    border-radius:4px;
+    box-shadow:rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    transition: all 500ms;
+    overflow:hidden;
+}
+
+
 
 .welcome{
     margin: 2rem;
     margin-right: 3rem;
     font-family: 'Noto Sans', sans-serif;
 }
+
+
+
