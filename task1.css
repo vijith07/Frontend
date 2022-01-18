@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 header{
-    margin: -12px
+    margin: -1rem
 }
 
 .hrow1{
-    height: 75px;
+    height: 4.6em;
     display:flex;
     align-content: bottom;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 1rem;
+    padding-left: 1rem;
     font-family: 'Raleway', sans-serif;
     background:rgb(51, 169, 199);
     color:white;
@@ -18,14 +18,14 @@ header{
     justify-content:right;
 }
 .brand{
-    margin-left:10px;
-    font-size:50px;
+    margin-left:1rem;
+    font-size:3rem;
 }
 .hrow2{
-    display:grid;
-    height: 1.5em;
-    padding-left:10px;
-    grid-template-columns:1450px 10px;
+    display:flex;
+    height: auto;
+    padding-left:1rem;
+    grid-template-columns:10fr 0.8fr;
     background:rgb(25, 36, 36);
     font-family: 'Open Sans', sans-serif;
     color:white;
@@ -33,11 +33,15 @@ header{
 }
 .hrow2links{
     display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(110px, 1fr));
+    grid-template-columns:repeat(auto-fill, minmax(6rem, 1fr));
     grid-gap:10px;
     padding-left:10px;
 }
 .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     width:1100px;
     font-family: 'Noto Sans', sans-serif;
@@ -47,7 +51,7 @@ header{
   }
 
 .welcome{
-    margin: 15px;
-    margin-right: 300px;
+    margin: 2rem;
+    margin-right: 3rem;
     font-family: 'Noto Sans', sans-serif;
 }
